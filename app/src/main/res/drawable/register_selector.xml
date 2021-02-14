@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--设置注册按钮选择器-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--按钮按下时的样式-->
+    <item android:state_pressed="true" android:drawable="@drawable/register_icon_selected">
+
+    </item>
+    <!--按钮平常时的样式-->
+    <item android:drawable="@drawable/register_icon_normal">
+
+    </item>
+</selector>

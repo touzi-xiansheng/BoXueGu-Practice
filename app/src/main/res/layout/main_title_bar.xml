@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--创建标题栏RelativeLayout布局，设置id:title_bar,高度为50dp，背景透明，-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/title_bar"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@android:color/transparent">
+
+    <!--设置返回按钮，设置id:tv_back，背景设置图片(go_back_selector.xml)，垂直方向居中，宽高50dp，设置TextView位于父亲左侧-->
+    <TextView
+        android:id="@+id/tv_back"
+        android:background="@drawable/go_back_selector"
+        android:layout_centerVertical="true"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+    </TextView>
+
+    <!--设置标题文字，使用TextView，设置id，设置文字颜色白色，文字大小-->
+    <TextView
+        android:id="@+id/tv_main_title"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+</RelativeLayout>

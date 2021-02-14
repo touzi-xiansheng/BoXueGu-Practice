@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--RelativeLayout 相对布局-->
+<!--android:background="@drawable/launch_bg" 背景图片-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/launch_bg">
+
+
+    <!--文本控件添加版本号-->
+    <!--设置id添加版本号-->
+    <!--宽高设置为包裹内容-->
+    <!--设置文本位置、颜色、大小-->
+    <TextView
+        android:id="@+id/tv_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"/>
+
+</RelativeLayout>
